@@ -1,0 +1,1 @@
+Scripts in this folder should be used on telegram web app (web.telegram.org)
