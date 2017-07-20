@@ -5,6 +5,7 @@
 // @description  Media messages are hidden by default and a show/hide button is added to the messages.
 // @author       arthurbsh
 // @match        https://web.telegram.org/*
+// @require      https://raw.githubusercontent.com/uzairfarooq/arrive/master/minified/arrive.min.js
 // @grant        none
 // ==/UserScript==
 
