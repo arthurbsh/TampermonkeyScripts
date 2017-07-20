@@ -27,6 +27,12 @@
         return msgText.indexOf(" is now known as ") !== -1;
     }
 
+    function isDeleted(threadStarter) {
+        var content = threadStarter.getElementsByClassName('content')[0];
+        var deleted = threadStarter.getElementsByClassName('deleted')[0];
+        return deleted;
+    }
+
     function skipCheck(text) {
         return text.indexOf('"') !== -1 || text.indexOf("'") !== -1;
     }
@@ -36,7 +42,7 @@
     }
 
     document.arrive(".thread-starter", function(threadStarter) {
-        if (isNameChange(threadStarter)) {
+        if (isNameChange(threadStarter) || isDeleted(threadStarter)) {
             hide(threadStarter);
         }
     });
