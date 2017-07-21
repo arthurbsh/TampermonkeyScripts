@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name         Hide not used languages
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/arthurbsh/
 // @version      1.0
-// @description  Hide not so used languages from https://translate.google.com menus
+// @description  Hide not so used languages from translate.google.com language menus
 // @author       arthurbsh
+// @homepage     https://github.com/arthurbsh/
 // @match        https://translate.google.com/*
 // @require      https://raw.githubusercontent.com/uzairfarooq/arrive/master/minified/arrive.min.js
 // @grant        none

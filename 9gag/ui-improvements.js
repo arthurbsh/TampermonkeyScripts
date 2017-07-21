@@ -1,8 +1,10 @@
 // ==UserScript==
-// @name        9gag improvements
-// @version      0.1
+// @name         9gag UI improvements
+// @namespace    https://github.com/arthurbsh/
+// @version      1.0
 // @description  Remove annoying 9gag elements
 // @author       arthurbsh
+// @homepage     https://github.com/arthurbsh/
 // @match        https://9gag.com/
 // @grant        none
 // ==/UserScript==

@@ -1,2 +1,3 @@
 # TampermonkeyScripts
-Tampermonkey scripts to enhance some pages and services.
+
+Collection of [Tampermonkey](https://tampermonkey.net/) userscripts to enhance some websites.
