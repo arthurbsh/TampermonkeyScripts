@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name         New thread confirmation
-// @namespace    http://tampermonkey.net/
-// @version      0.1
+// @namespace    https://github.com/arthurbsh/
+// @version      1.0
 // @description  Show a confirmation dialog before starting a new thread
-// @author       arthur
+// @author       arthurbsh
+// @homepage     https://github.com/arthurbsh/
 // @match        https://www.flowdock.com/*
 // @require      https://raw.githubusercontent.com/uzairfarooq/arrive/master/minified/arrive.min.js
 // @grant        none

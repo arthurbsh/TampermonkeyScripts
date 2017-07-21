@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name         Hide name changes
-// @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  Hide name changes from flows
-// @author       arthur
+// @namespace    https://github.com/arthurbsh/
+// @version      1.0
+// @description  Hides name changes and deleted thread starters
+// @author       arthurbsh
+// @homepage     https://github.com/arthurbsh/
 // @match        https://www.flowdock.com/*
 // @require      https://raw.githubusercontent.com/uzairfarooq/arrive/master/minified/arrive.min.js
 // @grant        none
