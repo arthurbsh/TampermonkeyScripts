@@ -61,8 +61,10 @@
 
     function setSpinnerValue(spinner, value) {
 
-        var newValue = new Intl.NumberFormat('en-US', { maximumFractionDigits: 0,
-            minimumFractionDigits: 0}).format(value);
+        var newValue = new Intl.NumberFormat('en-US', {
+            maximumFractionDigits: 0,
+            minimumFractionDigits: 0}
+            ).format(value);
 
         spinner.getElementsByClassName("numericInput")[0].value = newValue;
     }
